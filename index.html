@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"> </script>
+   </head>
+
+  <body>
+        <div class="nav">
+        <ul>
+        <li class="button"> DAVID HALL PHOTOGRAPHY</li> <br/><br/>
+        <li class="button" id="cont"> contact </li>
+        <li class="button" id="about"> about </li>
+        <li class="button" id="categories"> categories </li>
+    </ul>
+
+        <div id="dropdown">
+          <div class="button contact"> <a href="https://www.linkedin.com/in/david-hall-23b22b40/" target="_blank">LinkedIn </a></div>
+          <div class="button contact"> <a href="http://vimeo.com/50519679" target="_blank"> Showreel </a> </div>
+          <div class="button contact"> <a href="http://imdb.com/name/nm9170676/" target="_blank"> IMDB </a> </div>
+          <div class="button contact"> <a href="mailto:thisisdavidhall@gmail.com" target="_blank">Mail</a> </div>
+        </div>
+
+        <div id="secondDropdown">
+          <div class="text">
+            David Hall is a cool dude. I made this website for him because I
+            am a cool girl. David Hall is a cool dude. I made this website for him because I
+            am a cool girl. David Hall is a cool dude. I made this website for him because I
+            am a cool girl. David Hall is a cool dude. I made this website for him because I
+            am a cool girl.
+          </div>
+       </div>
+
+        <div id="thirdDropdown">
+          <div class="button selection" data-category="nature"> Nature </div>
+          <div class="button selection" data-category="people"> People </div>
+          <div class="button selection" data-category="city"> City </div>
+       </div>
+    </div>
+
+      <div class="grid">
+        <img id="big" class="item city" src="city/nyc3.jpg"/>
+        <img class="item nature" src="city/nyc1.jpg"/>
+        <img class="item nature" src="city/berlin1.jpg"/>
+        <img class="item nature" src="city/nyc6.jpg"/>
+        <img class="item city" src="city/amsterdam1.jpg"/>
+        <img class="item city" src="city/nyc2.jpg"/>
+        <img class="item people" src="people/ass.jpg"/>
+        <img class="item people" src="city/nyc5.jpg"/>
+        <img class="item people" src="city/athens1.jpg"/>
+        <img class="item people" src="people/lisa1.jpg"/>
+        <img class="item city" src="city/berlin5.jpg"/>
+        <!-- pictures which are not shown on the fronpage but appear in categories-->
+        <img class="item city hidden" src="city/berlin5.jpg"/>
+        <img class="item city hidden" src="city/berlin5.jpg"/>
+        <img class="item city hidden" src="city/berlin5.jpg"/>
+      </div>
+  </body>
+</html>
+
+<!-- more pics that are hidden on the main website but have categories and are shown
+when you choose a category -> first display:none and then display in jquery?-->
+
+<!--
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
+  <a href="city/nyc3.jpg" class="fancybox" >
+  <img id="big" class="item city" src="city/nyc3.jpg"/>
+  <a href="city/nyc1.jpg" class="fancybox">
+    <img class= "item nature" src="city/nyc1.jpg"/>
+  </a>
+  <a href="city/berlin1.jpg" class="fancybox">
+    <img class="item nature" src="city/berlin1.jpg"/>
+  </a>
+    <a href="city/nyc6.jpg" class="fancybox">
+      <img class="item nature" src="city/nyc6.jpg"/>
+    </a>
+  <a href="city/amsterdam1.jpg" class="fancybox">
+    <img class= "item city" src="city/amsterdam1.jpg"/>
+  </a>
+  <a href="city/nyc2.jpg" class="fancybox">
+    <img class="item city" src="city/nyc2.jpg"/>
+  </a>
+  <a href="people/ass.jpg" class="fancybox">
+    <img class="item people" src="people/ass.jpg"/>
+  </a>
+  <a href="city/nyc5.jpg" class="fancybox">
+    <img class="item people" src="city/nyc5.jpg"/>
+  </a>
+<a href="city/athens1.jpg" class="fancybox">
+  <img class="item people" src="city/athens1.jpg"/>
+</a> -->
