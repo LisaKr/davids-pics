@@ -52,14 +52,3 @@ $(function(){
     $(".hidden").hide();
   });
 });
-
-
-$(document).ready ( function () {
-    $(document).on ("click", "img", function () {
-        alert("hi");
-    });
-});
-
-/* $(function() {
-		$(".fancybox").fancybox();
-	}); */
