@@ -77,12 +77,14 @@ ul li:first-child {
   width: 350px;
 }
 
+.hidden {
+  display:none;
+}
+
 .highlight{
   text-shadow: 2px 2px 5px #004280;
   font-style: italic;
   cursor: pointer;
 }
 
-.hidden {
-  display:none;
-}
+
